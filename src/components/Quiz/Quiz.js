@@ -6,7 +6,7 @@ import { QuizzStartContext } from "../../pages/MoviesPage/MoviesPage"
 
 import styles from './Quizz.module.css'
 
-import QuizzImage from "../QuizzImage/QuizzImage"
+import QuizzImage from "../QuizImage/QuizImage"
 import QuizzMyButton from "../../UI/QuizzMyButton/QuizzMyButton"
 import ShowModal from "../ShowModal/ShowModal"
 import updateResultMovies from '../../actions/updateResultMovies'
@@ -16,7 +16,7 @@ import ServiceButton from '../../UI/ServiceButton/ServiceButton'
 
 import { motion } from "framer-motion"
 
-const Quizz = ({questions, bestResult}) => {
+const Quiz = ({questions, bestResult}) => {
 
     const [currentQuestion, setCurrentQuestion] = useState(0)
 
@@ -153,4 +153,4 @@ const Quizz = ({questions, bestResult}) => {
     )
 }
 
-export default Quizz
+export default Quiz

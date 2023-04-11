@@ -1,7 +1,7 @@
 import { useMemo, useState, createContext } from 'react'
 import {useSelector} from 'react-redux'
-import Quizz from '../../components/Quizz/Quizz'
-import QuizzInitial from '../../components/QuizzInitial/QuizzInitial'
+import Quiz from '../../components/Quiz/Quiz'
+import QuizInitial from '../../components/QuizInitial/QuizInitial'
 import useCheckboxesState from '../../hooks/useCheckboxesState'
 import DisplayPreloader from '../../components/DisplayPreloader/DisplayPreloader'
 
@@ -113,14 +113,14 @@ const MoviesPage = () => {
                         quizzStart
                         ? (
                             <QuizzStartContext.Provider value={{quizzStart: setQuizzStart}}>
-                                <Quizz 
+                                <Quiz 
                                 questions = {sliceQustions}
                                 bestResult = {data.bestResult}
                                 />
                             </QuizzStartContext.Provider>
                         )
                         : (
-                            <QuizzInitial 
+                            <QuizInitial 
                             category={data.category}
                             setQuizzStart={setQuizzStart}
                             checkboxesState={checkboxesState}

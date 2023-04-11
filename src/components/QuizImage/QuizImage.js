@@ -1,6 +1,6 @@
-import styles from './QuizzImage.module.css'
+import styles from './QuizImage.module.css'
 
-const QuizzImage = ({image}) => {
+const QuizImage = ({image}) => {
 
     return (
         <div
@@ -13,4 +13,4 @@ const QuizzImage = ({image}) => {
     )
 }
 
-export default QuizzImage
+export default QuizImage

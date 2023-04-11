@@ -1,10 +1,10 @@
 import QuizzStartButton from "../../UI/QuizzStartButton/QuizzStartButton"
 import MyCheckbox from "../../UI/MyCheckbox/MyCheckbox"
 import MyInputRange from "../../UI/MyInputRange/MyInputRagne"
-import styles from './QuizzInitial.module.css'
+import styles from './QuizInitial.module.css'
 import { AnimatePresence } from "framer-motion"
 
-const QuizzInitial = ({category, bestResult, setQuizzStart, checkboxesState, checkboxHandler, questionsLength, inputRangeValue, setInputRangeValue, maxInputRaveValue}) => {
+const QuizInitial = ({category, bestResult, setQuizzStart, checkboxesState, checkboxHandler, questionsLength, inputRangeValue, setInputRangeValue, maxInputRaveValue}) => {
     
     const checkBestResult = () => {
         if (bestResult === null) return <p className={styles['quizz-best-result']}>вы еще не играли в игру</p>
@@ -57,4 +57,4 @@ const QuizzInitial = ({category, bestResult, setQuizzStart, checkboxesState, che
     )
 }
 
-export default QuizzInitial
+export default QuizInitial
