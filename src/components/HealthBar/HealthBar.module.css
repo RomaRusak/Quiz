@@ -1,0 +1,22 @@
+.healthBar-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    min-height: 50px;
+    grid-column: 3/4;
+}
+
+.healthBar-icons-wrapper {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.healthBar-icons-wrapper > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

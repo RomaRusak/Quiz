@@ -1,0 +1,50 @@
+.quizz-initial {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.quizz-initial-title {
+    font-size: 54px;
+    text-shadow: 3px 3px 4px black;
+    margin-bottom: 25px;
+}
+
+.quizz-rules-wrapper {
+    background-color: linen;
+    padding: 5px 15px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    box-shadow: 1px 2px 3px #fff;
+}
+
+.quizz-rules {
+    font-size: 26px;
+    text-shadow: 1px 1px 2px black;
+    text-align: justify;
+    color: black;
+    font-style: italic;
+}
+
+.quizz-best-result {
+    font-size: 34px;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
+}
+
+.best-result-value {
+    color: gold;
+    font-size: 40px;
+}
+
+.quizz-inputs-wrapper > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}

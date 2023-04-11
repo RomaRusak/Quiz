@@ -1,0 +1,37 @@
+.custom-checkbox {
+    display: none;
+}
+
+.custom-checkbox-label {
+    font-size: 34px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
+.custom-checkbox-label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: beige;
+    height: 100%;
+    width: 40px;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    cursor: pointer;
+    background-image: url(../../images/service/CheckboxInactive.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.custom-checkbox:checked + .custom-checkbox-label::before {
+    background-image: url(../../images/service/checkboxChecked.png);
+}

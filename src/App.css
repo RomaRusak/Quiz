@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+.App {
+  min-height: 100vh;
+  background-image: url(./images/service/mainBackground2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.App::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+.App-content {
+  height: 100%;
+  width: 100%;
+  min-height: inherit;
+  position: relative;
+  z-index: 20;
+}

@@ -1,0 +1,16 @@
+.header {
+    background-color:  #9DB1CC;
+    box-shadow: 0 3px 22px black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    padding: 15px;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 100%;
+}

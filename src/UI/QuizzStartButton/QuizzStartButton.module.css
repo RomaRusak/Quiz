@@ -1,0 +1,25 @@
+.quizz-start-button {
+    padding: 10px 70px;
+    cursor: pointer;
+    background-color: #3071a9;
+    font-size: 44px;
+    font-weight: bold;
+    border-radius: 35px;
+    box-shadow: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    position: relative;
+    overflow: hidden;
+}
+
+.quizz-start-button:hover::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1);
+}

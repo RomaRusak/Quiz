@@ -1,0 +1,27 @@
+.quizz-question-imageWrapper {
+    height: 550px;
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    border: 10px solid whitesmoke;
+    box-shadow: 4px 4px 8px black;
+    margin-bottom: 10px;
+}
+
+.quizz-question-imageWrapper > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes selectedCorrect {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.03);
+    }
+}

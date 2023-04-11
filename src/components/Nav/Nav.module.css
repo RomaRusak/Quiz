@@ -1,0 +1,21 @@
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.nav-link-active {
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+}

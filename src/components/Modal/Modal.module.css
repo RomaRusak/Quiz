@@ -1,0 +1,49 @@
+.modal {
+    padding: 20px;
+    height: 700px;
+    width: 900px;
+    position: fixed;
+    top: calc(50vh - 350px);
+    left: calc(50vw - 450px);
+    background-color: whitesmoke;
+    z-index: 150;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #A2A2D0;
+}
+
+.modal-appearance {
+    animation: appearacne .5s;
+    animation-timing-function: ease-out;
+}
+
+.modal-title {
+    font-size: 54px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px black;
+}
+
+.modal-buttons-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.result {
+    font-size: 60px;
+    color: gold;
+}
+
+@keyframes appearacne {
+    0% {
+        opacity: 0;
+        transform: scale(.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,22 @@
+.service-button {
+    background-color: #3071a9;
+    padding: 10px 60px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border: 4px solid #1CA9C9;
+    border-radius: 25px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    transition: all .3s;
+
+}
+
+.service-button:hover,
+.service-button:active,
+.service-button:focus {
+    background-color: #6600FF;
+    border-color: #6600FF;
+}
